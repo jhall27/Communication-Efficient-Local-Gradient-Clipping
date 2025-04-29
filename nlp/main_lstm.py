@@ -334,7 +334,7 @@ def main():
     args = arg_parser()
     args.tied = True
 
-    dist.init_process_group(backend='nccl',
+    dist.init_process_group(backend='gloo',
                             init_method=args.init_method,
                             world_size=args.world_size,
                             rank=args.rank)

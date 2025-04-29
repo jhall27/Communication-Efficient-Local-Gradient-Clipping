@@ -7,7 +7,7 @@ The codes are based on https://github.com/zbh2047/clipping-algorithms
 3. load modules including python, pytorch, and cuda
 
 For Penn Treebank:
-- run `/PTB_GPUrun_0.sh` on one machine
+- run `./PTB_GPUrun_0.sh` on one machine
 - run `./PTB_GPUrun_1.sh` on another machine
 
 For Wikitext2:
